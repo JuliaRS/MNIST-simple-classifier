@@ -9,3 +9,7 @@ I haven't GPU that is why i start only 10 epoch with two type of neuronal networ
 
 
 * CNN - convolutional neural network
+
+FINAL val loss 0.08072357395677827
+
+FINAL val acc 0.9761
