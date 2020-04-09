@@ -54,5 +54,5 @@ def train(args):
                 writer.add_scalar('Val/acc', val_acc, e * len(train_loader) + i)
                 logging.debug('Epoch {}, val loss {}, val acc {}'.format(e, val_loss, val_acc))
         scheduler.step()
-    logging.debug('FINAL val loss {}, val acc {}'.format(val_loss))
+    logging.debug('FINAL val loss {}'.format(val_loss))
     logging.debug('FINAL val acc {}'.format(val_acc))
